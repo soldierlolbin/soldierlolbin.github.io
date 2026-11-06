@@ -4,6 +4,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>lolbin</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 2rem;
+      box-sizing: border-box;
+      color: white;
+      font-family: sans-serif;
+      text-shadow: 0 1px 4px #000;
+      background: linear-gradient(#0005, #0005),
+        url("https://st2.depositphotos.com/1029636/7658/i/450/depositphotos_76584249-stock-photo-cows-grazing-in-the-summertime.jpg") center / cover fixed;
+    }
+    a { color: white; }
+    .about {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      width: min(28rem, 40vw);
+      padding: 1.25rem;
+      background: #0008;
+      border-radius: 0.5rem;
+    }
+    @media (max-width: 700px) {
+      .about {
+        position: static;
+        width: auto;
+        margin-top: 2rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>lolbin</h1>
@@ -12,5 +42,11 @@
     <li><a href="https://credentials.offsec.com/93fb3cd0-3eea-49d0-b0c8-18a78b66624c#acc.ek7iraoF" target="_blank" rel="noopener">OSCP+</a></li>
     <li><a href="https://credentials.offsec.com/dad6638a-f1a6-4b09-ba21-1620f5d99835#acc.vUirxlum" target="_blank" rel="noopener">OSWP</a></li>
   </ul>
+  <p><a href="https://www.fiap.com.br/acontece/next-fiap-festival/" target="_blank" rel="noopener">CTF FIAP Next — 2nd Place, Cryptography (2025)</a></p>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I'm a bit of a nerd with a passion for technology, system exploitation, and finding zero-days. CTFs help me improve my skills (and they're fun too :D).</p>
+    <p>My goal is to find more zero-days than anyone else and reduce my DHT.</p>
+  </section>
 </body>
 </html>
